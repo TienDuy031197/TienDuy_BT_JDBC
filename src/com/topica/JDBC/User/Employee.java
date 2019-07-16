@@ -1,4 +1,4 @@
-package com.topica.JDBC;
+package com.topica.JDBC.User;
 
 public class Employee {
     private Integer id;
@@ -6,8 +6,7 @@ public class Employee {
     private String address;
     private String phone;
 
-    public Employee(Integer id, String name, String address, String phone) {
-        this.id = id;
+    public Employee(String name, String address, String phone) {
         this.name = name;
         this.address = address;
         this.phone = phone;
